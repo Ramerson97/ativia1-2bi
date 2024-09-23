@@ -1,0 +1,27 @@
+name: primeiro worck 
+
+on:
+  push:
+      branches:
+        -main
+  pull_request:
+        branches: [main]
+jobs:
+  job1:
+    name: job 1
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: passo1
+        run: echo "passo 1"
+
+      - name: passo2
+       run: echo "passo2"
+
+      - nema: passo ...
+      run: echo "passo ..."
+
+      - nema: passo  
+
+  
+        
